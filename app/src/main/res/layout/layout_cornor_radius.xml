@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout android:orientation="vertical"
+    android:background="#071b56"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <FrameLayout
+
+                android:background="@drawable/shape3"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:id="@+id/frame1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+
+                android:layout_margin="0dp">
+
+
+
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom"
+                    android:text="NoBroker.in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_margin="5dp"
+                    android:textSize="30dp"
+                    android:text="N"
+                    android:background="@drawable/circular_textbox"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/card2"
+                android:background="@drawable/shape2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" >
+
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom"
+                    android:text="MagicBricks.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_margin="5dp"
+                    android:textSize="30dp"
+                    android:text="M"
+                    android:background="@drawable/circular_shape2"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+//***************************************************
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <FrameLayout
+
+                android:background="@drawable/shape4"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+
+                android:layout_margin="0dp">
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom"
+                    android:text="99acres.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_margin="5dp"
+                    android:textSize="30dp"
+                    android:text="A"
+                    android:background="@drawable/circular_shape3"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/card4"
+                android:background="@drawable/shape5"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" >
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom"
+                    android:text="Makaan.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_margin="5dp"
+                    android:textSize="30dp"
+                    android:text="M"
+                    android:background="@drawable/circular_shape4"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+//------------------------------------------------
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <FrameLayout
+
+                android:background="@drawable/shape6"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+
+                android:layout_margin="0dp">
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom"
+                    android:text="Housing.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_margin="5dp"
+                    android:textSize="30dp"
+                    android:text="H"
+                    android:background="@drawable/circular_shape5"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/card6"
+                android:background="@drawable/shape7"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" >
+
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom"
+                    android:text="CommonFloor.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_margin="5dp"
+                    android:textSize="30dp"
+                    android:text="C"
+                    android:background="@drawable/circular_shape6"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
