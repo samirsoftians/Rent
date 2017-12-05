@@ -10,13 +10,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
    >
 
 
 
 
     <LinearLayout
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:orientation="horizontal"
@@ -56,7 +57,7 @@
                     android:layout_marginBottom="10dp"
                     android:textColor="#fff"
                     android:textStyle="bold"
-                    android:textSize="18dp"
+                    android:textSize="17dp"
 
                     android:textAlignment="center"
                     android:layout_gravity="bottom"
@@ -99,7 +100,7 @@
                     android:layout_marginBottom="10dp"
                     android:textColor="#fff"
                     android:textStyle="bold"
-                    android:textSize="18dp"
+                    android:textSize="17dp"
 
                     android:textAlignment="center"
                     android:layout_gravity="bottom"
@@ -127,7 +128,7 @@
 //***************************************************
 
     <LinearLayout
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:orientation="horizontal"
@@ -157,16 +158,16 @@
                 android:layout_margin="0dp">
 
                 <TextView
-                    android:layout_marginBottom="10dp"
-                    android:textColor="#fff"
-                    android:textStyle="bold"
-                    android:textSize="18dp"
-
-                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
                     android:layout_gravity="bottom"
-                    android:text="99acres.com"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp" />
+                    android:layout_marginBottom="10dp"
+
+                    android:text="Makaan.com"
+
+                    android:textColor="#fff"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:textColor="#fff"
@@ -174,7 +175,7 @@
                     android:layout_marginLeft="50dp"
                     android:layout_margin="5dp"
                     android:textSize="30dp"
-                    android:text="A"
+                    android:text="M"
                     android:background="@drawable/circular_shape3"
                     android:layout_gravity="right"
                     android:layout_width="wrap_content"
@@ -200,11 +201,11 @@
                     android:layout_marginBottom="10dp"
                     android:textColor="#fff"
                     android:textStyle="bold"
-                    android:textSize="18dp"
+                    android:textSize="17dp"
 
                     android:textAlignment="center"
                     android:layout_gravity="bottom"
-                    android:text="Makaan.com"
+                    android:text="Housing.com"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp" />
 
@@ -214,7 +215,7 @@
                     android:layout_marginLeft="50dp"
                     android:layout_margin="5dp"
                     android:textSize="30dp"
-                    android:text="M"
+                    android:text="H"
                     android:background="@drawable/circular_shape4"
                     android:layout_gravity="right"
                     android:layout_width="wrap_content"
@@ -227,7 +228,7 @@
 //------------------------------------------------
 
     <LinearLayout
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:orientation="horizontal"
@@ -260,12 +261,12 @@
                     android:layout_marginBottom="10dp"
                     android:textColor="#fff"
                     android:textStyle="bold"
-                    android:textSize="18dp"
+                    android:textSize="17dp"
 
-                    android:textAlignment="center"
+
                     android:layout_gravity="bottom"
-                    android:text="Housing.com"
-                    android:layout_width="wrap_content"
+                    android:text="CommonFloor.com"
+                    android:layout_width="match_parent"
                     android:layout_height="30dp" />
 
                 <TextView
@@ -274,7 +275,7 @@
                     android:layout_marginLeft="50dp"
                     android:layout_margin="5dp"
                     android:textSize="30dp"
-                    android:text="H"
+                    android:text="C"
                     android:background="@drawable/circular_shape5"
                     android:layout_gravity="right"
                     android:layout_width="wrap_content"
@@ -301,11 +302,11 @@
                     android:layout_marginBottom="10dp"
                     android:textColor="#fff"
                     android:textStyle="bold"
-                    android:textSize="18dp"
+                    android:textSize="17dp"
 
                     android:textAlignment="center"
                     android:layout_gravity="bottom"
-                    android:text="CommonFloor.com"
+                    android:text="NestAway.com"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp" />
 
@@ -315,7 +316,7 @@
                     android:layout_marginLeft="50dp"
                     android:layout_margin="5dp"
                     android:textSize="30dp"
-                    android:text="C"
+                    android:text="N"
                     android:background="@drawable/circular_shape6"
                     android:layout_gravity="right"
                     android:layout_width="wrap_content"

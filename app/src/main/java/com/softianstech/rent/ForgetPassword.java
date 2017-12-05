@@ -21,6 +21,8 @@ public class ForgetPassword extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
+
+        Links.navigate=1;
         // return super.onCreateView(inflater, container, savedInstanceState);
         View v=inflater.inflate(R.layout.layout_cornor_radius,container,false);
 
@@ -44,23 +46,15 @@ public class ForgetPassword extends Fragment {
 
                 Links.links="https://www.nobroker.in";//
 
+                Links.navigate=0;
 
 
-//                DisplayLinks m= new DisplayLinks();
-//
-//                FragmentTransaction fragmentTransaction= getChildFragmentManager().beginTransaction();
-//                fragmentTransaction.replace(R.id.frame2,m);
-//                fragmentTransaction.commit();
 
                 DisplayLinks myJob = new DisplayLinks();
                 FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.frame2, myJob);
                 fragmentTransaction.commit();
-//
 
-
-//                Intent i= new Intent(getContext(),Display.class);
-//                startActivity(i);
             }
         });
 
@@ -68,34 +62,35 @@ public class ForgetPassword extends Fragment {
         card2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Links.navigate=0;
                 Links.links="https://www.magicbricks.com";
 
                 DisplayLinks myJob = new DisplayLinks();
                 FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.frame2, myJob);
                 fragmentTransaction.commit();
-//                Intent i= new Intent(getContext(),Display.class);
-                //startActivity(i);
+
             }
         });
 
         card3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Links.links="https://www.99acres.com";
+                Links.navigate=0;//http://web.google.com/gview?embedded=true&url=
+                Links.links="https://www.makaan.com";//
                 DisplayLinks myJob = new DisplayLinks();
                 FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.frame2, myJob);
                 fragmentTransaction.commit();
-//                Intent i= new Intent(getContext(),Display.class);
-//                startActivity(i);
+
             }
         });
 
         card4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Links.links="https://www.makaan.com";
+                Links.navigate=0;
+               Links.links="https://housing.com";
                 DisplayLinks myJob = new DisplayLinks();
                 FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.frame2, myJob);
@@ -108,7 +103,8 @@ public class ForgetPassword extends Fragment {
         card5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Links.links="https://housing.com";
+                Links.navigate=0;
+                Links.links="https://www.commonfloor.com";//
                 DisplayLinks myJob = new DisplayLinks();
                 FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.frame2, myJob);
@@ -118,7 +114,8 @@ public class ForgetPassword extends Fragment {
         card6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Links.links="https://www.commonfloor.com";
+                Links.navigate=0;
+               Links.links="https://www.nestaway.com";
                 DisplayLinks myJob = new DisplayLinks();
                 FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.frame2, myJob);

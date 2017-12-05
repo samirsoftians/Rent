@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Rent</string>
+    <string name="app_name">ProperT</string>
+    <string name="title_activity_main">Poller</string>
+    <string name="your_string_here">Proper <u>underline</u>.</string>
 </resources>

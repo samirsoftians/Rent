@@ -25,6 +25,7 @@ TextView softians;
         softians.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Links.navigate=0;
 
                 Links.links="http://www.softianstech.com";
 
@@ -41,6 +42,20 @@ TextView softians;
     FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.frame2, myJob);
                 fragmentTransaction.commit();
+
+    }
+    @Override
+    public void onBackPressed() {
+        if (Links.navigate==0)
+        {
+            ForgetPassword myJob = new ForgetPassword();
+            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.frame2, myJob);
+            fragmentTransaction.commit();
+        }
+        else {
+            finish();
+        }
 
     }
 }

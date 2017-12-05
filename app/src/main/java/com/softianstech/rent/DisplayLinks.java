@@ -1,12 +1,15 @@
 package com.softianstech.rent;
 
 import android.app.ProgressDialog;
+import android.net.http.SslError;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.SslErrorHandler;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -46,21 +49,47 @@ public class DisplayLinks extends Fragment {
         }).start();
         //================================================================================================================
 
-        webView = (WebView) v.findViewById(R.id.webView);
+       webView = (WebView) v.findViewById(R.id.webView);
 
         webView.getSettings().setJavaScriptEnabled(true);
 
-        webView.loadUrl(Links.links);//"https://www.nobroker.in"
+//        webview.setWebViewClient(new CustomWebViewClient());
+
+//        webView.getSettings().setPluginState(WebSettings.PluginState.ON);
+//        webView.getSettings().setAllowFileAccess(true);
+//****************************************Changes here*************************
+        String url ="http://tickets.musiconelive.com/admin/SACValidateBarcode.asp";
+       // WebView wv=(WebView) findViewById(R.id.webView1);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setPluginState(WebSettings.PluginState.ON);
+        webView.getSettings().setAllowFileAccess(true);
+        webView.loadUrl(Links.links);
+        //******************************changes ends here*******************************************
+
+
+
+
+
+        /*webView.loadUrl(Links.links);//"https://www.nobroker.in"
         webView.setWebViewClient(new WebViewClient());
+        webView.setWebChromeClient(new WebChromeClient());*/
 
+        //************************************************************************************************
 
+        webView.setWebViewClient(new WebViewClient(){
 
+            @Override
+            public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error){
+                handler.proceed();
+            }
+        });
 
 
         return v;
 
 
     }
+
 
 
 }

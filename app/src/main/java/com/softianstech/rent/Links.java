@@ -6,5 +6,7 @@ package com.softianstech.rent;
 
 public class Links {
 
+    public static int navigate;
+
     public static String links;
 }
